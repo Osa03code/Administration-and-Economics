@@ -1,0 +1,25 @@
+header {
+    background-color: #3e8e41;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3e8e41;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
