@@ -26,13 +26,18 @@ nav a:hover {
     color: #18854e;
 }
 
-/* تنسيق الرأس */
-/* header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+
+
+.header {
+    background-color:white;
+    color: black;
+    padding: 10px;
     text-align: center;
-} */
+}
+.header:hover{
+    color:#fc0303;
+
+}
 
 /* تنسيق الجدول */
 table {
@@ -62,6 +67,10 @@ table tr:nth-child(even) {
 h1,
 h2 {
     margin: 10px 0;
+}
+
+.top-students h4{
+    text-align: center;
 }
 
 /* تنسيق الفوتر */
