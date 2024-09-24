@@ -73,3 +73,9 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/*تنسيق صفحة اعضاء الهيئة التدريسية*/
+.faculty {
+    padding: 20px;
+    text-align: center;
+    background-color: #ecf0f1; 
+}
