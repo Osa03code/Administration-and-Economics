@@ -25,3 +25,41 @@ nav a:hover {
     text-decoration: underline;
     color: #18854e;
 }
+
+/* تنسيق الرأس */
+/* header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* تنسيق الجدول */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* تنسيق العنوان */
+h1,
+h2 {
+    margin: 10px 0;
+}
