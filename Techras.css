@@ -220,3 +220,39 @@ footer {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #2980b9; /* إطار أزرق مشرق */
+}
+
+.card h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #2c3e50; /* أزرق داكن */
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #7f8c8d; /* رمادي داكن */
+}
+
+.card a {
+  text-decoration: none;
+  color: #e74c3c; /* لون وردي داكن */
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.card a:hover {
+  color: #c0392b; /* لون وردي أغمق */
+}
